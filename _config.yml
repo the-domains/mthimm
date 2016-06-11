@@ -1,28 +1,40 @@
-name: mthimm
 favicon: null
-layout_spectrum: 0.37853042129427195
-typography_spectrum: 0.9557866062968969
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: mthimm
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.7278353690635413
+  brandStrength: 0.07401987793855369
+  rhythmicContrast: 0.7756833510939032
   brandColors:
     - '#71A7FE'
     - '#399AE7'
     - '#3B407C'
     - '#547AB1'
     - '#CEAFC0'
-  brandStrength: 0.07401987793855369
   lightness: 0.5621938521508127
-  saturation: 0.7278353690635413
-  rhythmicContrast: 0.7756833510939032
-purpose: []
+typography_spectrum: 0.9557866062968969
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.8865915
+analytics:
+  twitter: null
+  google: null
+  facebook: null
